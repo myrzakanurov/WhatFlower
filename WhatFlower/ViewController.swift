@@ -18,7 +18,6 @@ class ViewController: UIViewController, UIImagePickerControllerDelegate, UINavig
     @IBOutlet weak var label: UILabel!
     
     let imagePicker = UIImagePickerController()
-    let flowerManager = FlowerManager()
     
     override func viewDidLoad() {
         super.viewDidLoad()
